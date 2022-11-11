@@ -1,0 +1,45 @@
+.background {
+    background-color: rgba(100, 100, 100, 0.8);
+}
+
+.main_body {
+    display: grid;
+    width: fit-content;
+    margin: 15vh auto auto;
+    grid-template-columns: 1.5fr 0.5fr;
+    grid-template-rows: 0.5fr 4fr 1fr;
+    gap: 15px 15px;
+    grid-template-areas: 
+    "main_header main_header"
+    "main_info main_nav"
+    "main_floor main_floor";
+    text-wrap: normal;
+    justify-content: center;
+    align-content: center;
+}
+
+.main_header {
+    grid-area: main_header;
+    text-align: center;
+    height: 70px;
+}
+
+.main_info {
+    grid-area: main_info;
+    padding: 0 10px;
+}
+
+.main_nav {
+    grid-area: main_nav;
+}
+
+.nav_frame{
+    border: 0;
+    height: available;
+
+}
+
+.main_floor {
+    grid-area: main_floor;
+    height: 50px;
+}

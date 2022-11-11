@@ -1,0 +1,38 @@
+﻿body {
+    background: url("img/background2.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+table.schedule_body {
+    margin: 5px auto;
+    background-color: #EEEEEE;
+    text-align: center;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 650px;
+}
+
+table.schedule_body td, table.schedule_body th {
+    border: 2px solid #AAAAAA;
+    padding: 3px 2px;
+}
+
+table.schedule_body tbody td {
+    font-size: 15px;
+    height: 35px;
+}
+
+table.schedule_body thead {
+    background: #1C6EA4;
+    border-bottom: 2px solid #444444;
+}
+
+table.schedule_body thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-left: 2px solid #D0E4F5;
+}

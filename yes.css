@@ -1,0 +1,46 @@
+body {
+    background: url("img/background1.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#yes {
+    margin: 10px 0;
+}
+
+#yes::before {
+    content: "🐞";
+    animation: yes_bug 300ms  infinite linear ;
+
+}
+
+#yes::after {
+    content: "🐞";
+    animation: yes_bug 300ms reverse infinite linear ;
+}
+
+@keyframes yes_bug {
+    0% {content: "🌕"}
+    12.5%{content: "🌔"}
+    25%{content: "🌓"}
+    37.5%{content: "🌒"}
+    50%{content: "🌑"}
+    62.5%{content: "🌘"}
+    75%{content: "🌗"}
+    87.5%{content: "🌖"}
+    100%{content: "🌕"}
+}
+
+@keyframes cockroach_dance {
+    0% {
+        transform: translateX(0px)
+    }
+    50% {
+        transform: translateX(180px)
+    }
+    100% {
+        transform: translateX(0px)
+    }
+}
