@@ -1,5 +1,5 @@
 .background {
-    background-color: rgba(100, 100, 100, 0.8);
+    background-color: rgba(144, 216, 166, 0.8);
 }
 
 .main_body {
@@ -8,7 +8,7 @@
     margin: 15vh auto auto;
     grid-template-columns: 1.5fr 0.5fr;
     grid-template-rows: 0.5fr 4fr 1fr;
-    gap: 15px 15px;
+    gap: 8px 8px;
     grid-template-areas: 
     "main_header main_header"
     "main_info main_nav"
@@ -22,6 +22,7 @@
     grid-area: main_header;
     text-align: center;
     height: 70px;
+    border-radius: 20px 20px 0 0;
 }
 
 .main_info {
@@ -36,10 +37,34 @@
 .nav_frame{
     border: 0;
     height: available;
-
 }
 
 .main_floor {
     grid-area: main_floor;
     height: 50px;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+}
+
+.main_floor::before{
+    content: ".";
+    animation: floor_animation_left 2s linear infinite;
+
+}
+
+.main_floor::after{
+    content: ".";
+    animation: floor_animation_right 2s linear infinite;
+}
+
+@keyframes floor_animation_left{
+    0%{content:"(ヘ･_･)ヘ┳━┳"}
+    50%{content:"(╯°□°）╯︵ ┻━┻"}
+    100%{content:"(ヘ･_･)ヘ┳━┳"}
+}
+
+@keyframes floor_animation_right{
+    0%{content:"┳━┳ ノ( ゜-゜ノ)"}
+    50%{content:"┻━┻ ︵ ＼( °□° )／"}
+    100%{content:"┳━┳ ノ( ゜-゜ノ)"}
 }

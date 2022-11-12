@@ -1,6 +1,12 @@
 ﻿.container{
     display: flex;
+    height: 70%;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-between;
+}
+
+.container button{
+    border-color: #0cce7d;
+    
 }
