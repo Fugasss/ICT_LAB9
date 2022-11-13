@@ -1,5 +1,7 @@
 .background {
-    background-color: rgba(144, 216, 166, 0.8);
+    background-color: rgba(144, 216, 166, 0.6);
+    backdrop-filter:  blur(10px) ;
+    
 }
 
 .main_body {
@@ -48,13 +50,13 @@
 
 .main_floor::before{
     content: ".";
-    animation: floor_animation_left 2s linear infinite;
+    animation: floor_animation_left 1.8s linear infinite;
 
 }
 
 .main_floor::after{
     content: ".";
-    animation: floor_animation_right 2s linear infinite;
+    animation: floor_animation_right 1.8s linear infinite;
 }
 
 @keyframes floor_animation_left{

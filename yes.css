@@ -1,5 +1,5 @@
 body {
-    background: url("img/background1.jpg") no-repeat center center fixed;
+    background: url("img/background5-transformed.jpeg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -11,13 +11,13 @@ body {
 }
 
 #yes::before {
-    content: "🐞";
+    content: ".";
     animation: yes_bug 300ms  infinite linear ;
 
 }
 
 #yes::after {
-    content: "🐞";
+    content: ".";
     animation: yes_bug 300ms reverse infinite linear ;
 }
 

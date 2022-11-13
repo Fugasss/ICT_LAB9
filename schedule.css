@@ -13,6 +13,7 @@ table.schedule_body {
     border-collapse: collapse;
     table-layout: fixed;
     width: 650px;
+    border-style: solid;
 }
 
 table.schedule_body td, table.schedule_body th {

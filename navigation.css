@@ -7,6 +7,13 @@
 }
 
 .container button{
-    border-color: #0cce7d;
-    
+    border: 2px solid #307050;
+}
+.container button:hover{
+    border-color: #CC4140;
+    background: #DDDDDD;
+}
+.container button:active{
+    border-color: #CC4140;
+    background: #CCCCCC;
 }
