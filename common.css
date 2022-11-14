@@ -30,6 +30,7 @@
 .main_info {
     grid-area: main_info;
     padding: 0 10px;
+    font-family: "Calibri", serif;
 }
 
 .main_nav {
