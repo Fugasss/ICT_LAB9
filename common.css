@@ -44,8 +44,10 @@
 
 .main_floor {
     grid-area: main_floor;
+    display: flow;
     height: 50px;
     text-align: center;
+    padding-top: 20px;
     border-radius: 0 0 20px 20px;
 }
 
